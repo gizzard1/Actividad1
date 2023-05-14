@@ -1,0 +1,348 @@
+h1{
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-family:sans-serif;
+}
+h2{
+    color: rgb(17, 73, 136);
+    text-align: center;
+    font-weight: normal;
+}
+h3{
+    color: rgb(17, 73, 136);
+    text-align: justify;
+    font-weight: normal;
+}
+h4{
+    color: rgba(17, 72, 136, 0.726);
+    font-weight: lighter;
+    text-align: justify;
+}
+h5{
+    color: rgb(17, 72, 136);
+    text-align: left;
+    font-weight: lighter;
+}
+footer{
+    color: gray;
+    text-align: center;
+}
+body {
+    background: linear-gradient(rgb(28, 86, 211), rgb(38, 14, 126));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fuente{
+    font-family: 'Open Sans', sans-serif;
+}
+.bgr {
+    background-color: rgb(8, 8, 8);
+    margin: 0px;
+}
+.contenedor{
+    max-width: auto;
+    margin: 0 auto;
+}
+.navegador1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+}
+.navegador{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 20px;
+}
+.navegador a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(199, 199, 199);
+    font-weight: lighter;
+    padding: 5px 50px;
+}
+.navegador1 a{
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 5px 50px;
+}
+.navegador a:hover{
+    background-color: rgb(49, 68, 109);
+    color: aliceblue;
+}
+.navegador1 a:hover{
+    color: aliceblue;
+}
+.fondo{
+    background: url('/images/R.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;   
+    position: relative;     
+}
+.fondo2{
+    background: url('../images/S.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;     
+    background-color: rgb(116, 119, 131);
+    border-radius: 5px;
+}
+.foto1{
+    background: url('../images/Gatito.png');
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;     
+    text-align: center;
+    background-position: center;
+}
+.foto2{
+    background: url('../images/Gatito2.png');
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;       
+    text-align: center;
+    background-position: center;
+}
+.foto3{
+    background: url('../images/Gatito3.png');
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;  
+    text-align: center;
+    background-position: center;     
+}
+.foto4{
+    background: url('../images/Gatito4.png');
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;       
+    text-align: center;
+    background-position: center;
+}
+.contenido-fondo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(185, 185, 185, 0.6); 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-subtitle {
+    margin: 0;
+    padding: 0;
+    width: 570px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -610px;
+    position: sticky;
+    text-align: left;
+    padding-top: 20px;
+    overflow: auto;
+}
+
+.contenedor-subtitle h2{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 50px;
+    font-size: 200%;
+}
+.contenedor-subtitle h5{
+    margin-left: 50px;
+    padding: 0;
+}
+
+.contenedor-principal {
+    display: flex;
+    margin: 0px;
+    text-align: justify;
+    background: white;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+}
+
+.contenedor-parrafo1 {
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    height: 100px;
+    text-align: justify;
+    color: white;
+    margin-left: -80px;
+    margin-left: 30px;
+}
+.contenedor-parrafo1 h4{
+    margin-left: 80px;
+}
+
+
+.contenedor-parrafo2 {
+    display: grid;
+    grid-template-columns: 1f 1f;
+    margin: 0;
+    padding: 0;
+    margin-right: 80px ;
+    max-width: 300px;
+    height: 100px;
+    text-align: justify;
+    color: white;
+    margin-top: 60px;
+}
+
+.icono {
+    padding: 0;
+    margin-left: 200px;
+    margin-top: 130px;
+}
+
+.contenedor-baner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px;
+    height: 600px;
+    width: 1300px;
+    padding: 50px;
+}
+.sombra {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    background-color: var(--blanco);
+    padding: 2rem;
+}
+.texto-baner{
+    margin-top: 230px;
+    color: white;
+    font-weight: lighter;
+}
+.contenedor-baner-principal{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: -70px;
+}
+.contenedor-descripcion{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+.contenedor-descripcion h3{
+    text-align: center;
+}
+.foto1 a{
+    padding: 0;
+    
+}
+@media (max-width: 1001px) {
+    .contenedor-baner{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+    .contenedor-principal {
+        height: 800px;
+    }
+    .foto1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        row-gap: 250px;
+        height:auto;
+        margin: auto;
+        width:auto;     
+    }
+    .foto2{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        row-gap: 250px;
+        margin: auto;
+        height:auto;
+        width:auto;       
+    }
+    .foto3{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        row-gap: 250px;
+        margin: auto;
+        height:auto;
+        width:auto;       
+    }
+    .foto4{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: auto;
+        row-gap: 250px;
+        height:auto;
+        width:auto;       
+    }
+    .contenedor-baner-principal{
+        row-gap: 5rem;
+    }
+    .contenedor-subtitle{
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+}
+@media (max-width: 700px) {
+    .contenedor-baner{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+    .contenedor-baner-principal{
+        padding-top: 20rem;
+        margin-top: -150px;
+    }
+    .contenedor-principal {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin: auto;
+        width: 100%;
+    }
+    .contenedor-parrafo1 h4{
+        margin: 0px;
+    }
+    .icono {
+        padding: 0;
+        margin: auto;
+        margin-top: 200px;
+    }
+    .contenedor-parrafo2 {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .navegador{
+        width: 50px;
+    }
+    .contenedor-subtitle{
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+}

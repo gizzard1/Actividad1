@@ -1,0 +1,234 @@
+.auto-font-size {
+    font-size: auto;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+h3{
+    color: rgba(74, 17, 112, 0.356);
+    text-align: left;
+}
+h4{
+    color: rgb(0, 60, 255);
+    text-align: center;
+}
+h5{
+    color: aqua;
+    text-align: center;
+}
+footer{
+    color: gray;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+input{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+textarea{
+    width: 690px;
+    height: 170px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+    font-size: medium;
+    text-align:center;
+}
+.campo input{
+    width: 250px;
+    height: 50px;
+}
+.bgr {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+.contenedor{
+    max-height: 1300px;
+    margin: 0 auto;
+}
+.contenedor-principal{
+    max-height: 1600px;
+    height: 1800px;
+}
+.navegador{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.navegador a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:purple;
+    text-align: center;
+    font-weight: lighter;
+    padding: 5px 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navegador a:hover{
+    background-color: purple;
+    color: aliceblue;
+}
+.sombra{
+    -webkit-box-shadow: 6px 2px 17px -6px rgba(214,101,214,1);
+    -moz-box-shadow: 6px 2px 17px -6px rgba(214,101,214,1);
+    box-shadow: 6px 2px 17px -6px rgba(214,101,214,1);    
+    border-radius:  15px;
+    padding-bottom: 15px;  
+}
+.video{
+    margin-top: 40px;
+    height: 660px; 
+    width: 1300px;
+    margin: auto;
+}
+.contenedor-subtitle {
+    margin: 0;
+    padding: 0;
+    max-width: 570px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    text-align: right;
+    overflow: auto;
+    margin-left: 666px;
+    margin-top: -130px;
+}
+.contenedor-subtitle h3{
+    text-align: right;
+    margin-right: 50px;
+    color: purple;
+}
+.formulario{
+    background-color: black;
+    width: auto;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 15px;
+    border-style:outset;
+    border-color: purple;
+    margin-top: 70px;
+}
+.formulario legend{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: lighter;
+}
+.campos{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 0;
+}
+.campo{
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+    justify-content: center;
+}
+.boton{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+    padding: 5px 60px;
+    border-radius: 5px;
+    border-style:none;
+    font-size:larger;
+    cursor:pointer;
+    margin-bottom: 40px;
+}
+.alinear-boton{
+    text-align: center;
+    margin-top: 40px;
+}
+.alinear-boton input:hover{
+    background-color: purple;
+}
+.contenedor-cuerpo{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+    padding: 60px;
+}
+.contenedor-cuerpo h3{
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.contenedor-contacto{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .video{
+        margin-top: 40px;
+        height: 0px; 
+        width: 0px;
+        margin: auto;
+        justify-content: center;
+    }
+    .navegador{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20%;
+        column-gap: 5%;
+        margin-top: 20px;
+    }
+    .sombra{
+        width: 5rem;
+    }
+    .bgr {
+        height: auto;
+        width: auto;
+    }
+    .contenedor-cuerpo{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .campos{
+        display: flex;
+        flex-direction: column;
+    }
+    .campo input{
+        text-align: center;
+    }
+    .alinear-boton{
+        margin: auto;
+    }
+    .campos fieldset{
+        width: auto;
+    }
+    textarea{
+        width: 92%;
+        height: 170px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 40px;
+        font-size: medium;
+    }
+    .boton{
+        width: auto;
+        padding: 5px 60px;
+        border-radius: 5px;
+        border-style:none;
+        font-size:medium;
+        margin-top: 40px;
+    }
+}
